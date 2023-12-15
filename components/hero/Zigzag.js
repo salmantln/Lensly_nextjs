@@ -55,11 +55,14 @@ export default function Zigzag() {
                                     <a href="/features/photo-filters" class="stories_feed-title w-inline-block">
                                         <h2 class="heading-style-old-h2">Photo Filters</h2>
                                     </a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">VSCO presets
-                                        allow you to elevate your photos quickly and easily. We’ve included fifteen of
-                                        our most popular presets for free within the VSCO app, so you can start editing
-                                        your images right away. From quiet and muted to vibrant and saturated, each
-                                        preset produces a unique look.</p></div>
+                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">Lensly presets
+                                        offer a convenient and efficient way to enhance your photographs. The Lensly app
+                                        comes with fifteen of its most popular presets included at no cost, enabling
+                                        immediate editing of your images. These presets range from subtle and
+                                        understated to bold and vibrant, each creating a distinct aesthetic for your
+                                        photos. This variety allows for a wide range of creative expression tailored to
+                                        your photographic style.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
@@ -98,13 +101,14 @@ export default function Zigzag() {
                                         <h2 class="heading-style-old-h2">Video Editor</h2>
                                     </a>
                                     <div class="text-color-old-light-grey">
-                                        <p class="text-size-old-p2">Transform your
-                                            videos on mobile with the same premium VSCO presets, effects and advanced
-                                            editing tools from our photo editor. Adjust white balance and experiment
-                                            with
-                                            color control with HSL. Trim, crop and reverse videos with exclusive
-                                            features
-                                            like Speed for a slo-mo effect.</p>
+                                        <p class="text-size-old-p2">
+                                            Enhance your mobile videos using Lensly's premium presets, effects, and
+                                            advanced editing tools, similar to those in its photo editor. Tweak white
+                                            balance and explore color adjustments with HSL. The app allows you to trim,
+                                            crop, and reverse your videos, offering unique features like the Speed
+                                            option for creating slow-motion effects. This comprehensive suite of tools
+                                            transforms your mobile video editing experience, giving you
+                                            professional-grade results on the go.</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,10 +141,12 @@ export default function Zigzag() {
                                         href="/features/photo-collage" class="stories_feed-title w-inline-block">
                                         <h2 class="heading-style-old-h2">Collage</h2>
                                     </a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">Create a collage
-                                        in seconds with a pre-set template or start with a blank canvas to compose what
-                                        you imagine. Customize your composition with photos, shapes, colors, and
-                                        sizes.</p></div>
+                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">Effortlessly
+                                        create a collage in moments using Lensly's pre-designed templates or begin from
+                                        scratch with a blank canvas to bring your vision to life. Personalize your
+                                        creation by incorporating photos, various shapes, a spectrum of colors, and
+                                        adjustable sizes. This feature offers a versatile and creative way to arrange
+                                        and display your images exactly as you envisage..</p></div>
                                 </div>
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
@@ -169,11 +175,12 @@ export default function Zigzag() {
                                            class="features_icon"/><a
                                     href="/features/camera" class="stories_feed-title w-inline-block"><h2
                                     class="heading-style-old-h2">Camera</h2></a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">A new way to
-                                        create is just a swipe and a tap away for all your photos and videos. We have
-                                        four camera options in our Camera feature: Burst, Retro, Prism, and DSCO. To try
-                                        it out, simply go to your studio and click on the Camera icon at the top to then
-                                        explore our latest ways to create.</p></div>
+                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">
+                                        Unlock a new realm of creativity for both your photos and videos with just a
+                                        swipe and a tap in Lensly. The app features four innovative camera options:
+                                        Burst, Retro, Prism, and DSCO. To experience these, head to your studio in the
+                                        app and tap on the Camera icon. This will open up an array of exciting, new ways
+                                        to capture and create with your images and videos.</p></div>
                                 </div>
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
@@ -203,10 +210,11 @@ export default function Zigzag() {
                                     href="/features/dodge-burn" class="stories_feed-title w-inline-block"><h2
                                     class="heading-style-old-h2">Dodge &amp; Burn</h2></a>
                                     <div class="text-color-old-light-grey">
-                                        <p class="text-size-old-p2">With VSCO’s new
-                                            Dodge and Burn tool, creators can control the light in their images to
-                                            correct
-                                            common problems and guide their viewer’s attention in the image.</p>
+                                        <p class="text-size-old-p2">Lensly's new Dodge and Burn tool empowers creators
+                                            to manipulate light in their images. This feature enables users to address
+                                            common photographic issues and direct the viewer's focus within the picture.
+                                            It provides an enhanced level of control over the lighting, helping to
+                                            refine the overall impact and storytelling of the image.</p>
                                     </div>
                                 </div>
                             </div>
@@ -238,10 +246,11 @@ export default function Zigzag() {
                                         <h2 class="heading-style-old-h2">VSCO Spaces</h2>
                                     </a>
                                     <div class="text-color-old-light-grey">
-                                        <p class="text-size-old-p2">Spaces is a
-                                            collaborative environment that provides a safe space for creators to
-                                            workshop
-                                            ideas, share inspiration, and connect through collective galleries.</p>
+                                        <p class="text-size-old-p2">Spaces offers a collaborative environment designed
+                                            for creators to come together. It's a secure platform where they can
+                                            exchange ideas, find inspiration, and connect with one another through
+                                            shared galleries. This space is intended to foster a community-driven
+                                            atmosphere where creativity and collaboration flourish.</p>
                                     </div>
                                 </div>
                             </div>
