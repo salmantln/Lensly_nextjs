@@ -258,28 +258,50 @@ export default function Zigzag() {
                                             within the Lensly community.</p>
                                     </div>
                                 </div>
+                                <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
+                                    // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                                     role="listitem" className="features_card w-dyn-item">
+                                    <a href="/features/dodge-burn"
 
-                                <div className="features_section-content is-stories-parent">
-                                    <Image alt=""
-                                           width={50}
-                                           height={50}
-                                           loading="lazy"
-                                           src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b239f5ae1e37b84ec0_64f19cf0b16600af4438325f_icon-spaces.svg"
-                                           class="features_icon"/>
-                                    <a
-                                        href="/features/spaces"
-                                        className="stories_feed-title w-inline-block">
-                                        <h2 className="heading-style-old-h2">AI Camera Setting</h2>
-                                    </a>
-                                    <div className="text-color-old-light-grey">
-                                        <p className="text-size-old-p2">Discover the ease of photography with Lensly&apos;s
-                                            AI Camera Setting Recommendation. Simply tell the app what you&apos;re capturing,
-                                            and our AI fine-tunes the settings for the perfect shot. Ideal for any
-                                            scene, from bustling streets to serene sunsets, our AI ensures your photos
-                                            are effortlessly stunning. Experience the future of photography with Lensly
-                                            – where your vision meets AI precision.</p>
+                                       className="stories_cover-wrap is-stories w-inline-block">
+                                        <Image
+                                            width={50}
+                                            height={50}
+                                            alt=""
+                                            loading="lazy"
+                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a407182502610f_64f19cf0b16600af443832bd_vsco-dodge-and-burn.webp"
+                                            sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 680px, 40vw"
+                                            srcset="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a407182502610f_64f19cf0b16600af443832bd_vsco-dodge-and-burn-p-500.webp 500w, https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a407182502610f_64f19cf0b16600af443832bd_vsco-dodge-and-burn.webp 700w"
+                                            class="stories_image"
+                                            // style="transform: scale(1);"
+                                        /></a>
+                                    <div className="features_section-content is-stories-parent">
+                                        <Image alt=""
+                                               width={50}
+                                               height={50}
+                                               loading="lazy"
+                                               src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b239f5ae1e37b84ec0_64f19cf0b16600af4438325f_icon-spaces.svg"
+                                               class="features_icon"/>
+                                        <a
+                                            href="/features/spaces"
+                                            className="stories_feed-title w-inline-block">
+                                            <h2 className="heading-style-old-h2">AI Camera Setting</h2>
+                                        </a>
+                                        <div className="text-color-old-light-grey">
+                                            <p className="text-size-old-p2">Discover the ease of photography with
+                                                Lensly&apos;s
+                                                AI Camera Setting Recommendation. Simply tell the app what you&apos;re
+                                                capturing,
+                                                and our AI fine-tunes the settings for the perfect shot. Ideal for any
+                                                scene, from bustling streets to serene sunsets, our AI ensures your
+                                                photos
+                                                are effortlessly stunning. Experience the future of photography with
+                                                Lensly
+                                                – where your vision meets AI precision.</p>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
