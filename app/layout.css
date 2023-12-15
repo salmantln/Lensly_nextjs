@@ -1,0 +1,368 @@
+.mobile_menu.hidden {
+    display: none;
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+    /* Other styles as needed */
+}
+
+.mobile_menu.visible {
+    display: block;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    /* Transition or other styles as needed */
+}
+
+
+#content.light-mode {
+    background-color: #f1f1f1;
+    color: #020202;
+}
+
+#contant.light-mode a {
+    color: #020202;
+}
+
+#content.light-mode path {
+    fill: #020202;
+}
+
+#content.light-mode .splitter {
+    background-color: #020202;
+}
+
+#content.light-mode .arrow_labs {
+    filter: invert(100%);
+}
+
+#content.light-mode .link_join {
+    color: #020202;
+}
+
+#content.light-mode .splitter_footer {
+    background-color: #020202;
+}
+
+#content.light-mode .link_footer {
+    color: #020202;
+}
+
+#content.light-mode .logo_line {
+    background-color: #020202;
+}
+
+#content.light-mode .labs_link {
+    color: #020202;
+}
+
+#content.light-mode .appointments_link {
+    color: #020202;
+    border-color: #020202;
+}
+
+#content.light-mode .appointments_description {
+    color: #828282;
+}
+
+#content.light-mode .appointment_cta {
+    border-color: #020202;
+    color: #020202;
+}
+
+#content.light-mode .press_inq {
+    color: #828282;
+}
+
+#content.light-mode .clock_circle {
+    border-color: #020202;
+}
+
+#content.light-mode .text_field {
+    border-color: #020202;
+    color: #020202;
+}
+
+#content.light-mode .text_field::placeholder {
+    color: #020202;
+}
+
+#content.light-mode .contact_splitter {
+    background-color: #020202;
+}
+
+#content.light-mode .splitter_bottom {
+    background-color: #020202;
+}
+
+#content.light-mode .submit_button {
+    background-color: #020202;
+    color: #f1f1f1;
+}
+
+#content.light-mode .caption_contact {
+    color: #020202;
+}
+
+#content.light-mode .privacy_link {
+    color: #020202;
+    border-color: #020202;
+}
+
+
+#content.dark-mode {
+    background-color: #020202;
+    color: #f1f1f1;
+}
+
+#content.dark-mode a {
+    color: #f1f1f1;
+}
+
+#content.dark-mode a.w--current {
+    color: #CDCDCD;
+}
+
+#content.dark-mode path {
+    fill: #020202;
+}
+
+#content.dark-mode .splitter {
+    background-color: #f1f1f1;
+}
+
+#content.dark-mode .link_Block_2 {
+    filter: invert(200%);
+}
+
+#content.dark-mode .link_join {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .splitter_footer {
+    background-color: #f1f1f1;
+}
+
+#content.dark-mode .link_footer {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .arrow_labs {
+    filter: invert(0%);
+}
+
+#content.dark-mode .logo_line {
+    background-color: #f1f1f1;
+}
+
+#content.dark-mode .labs_link {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .appointments_link {
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+#content.dark-mode .appointments_description {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .appointment_cta {
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+#content.dark-mode .press_inq {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .clock_circle {
+    border-color: #f1f1f1;
+}
+
+#content.dark-mode .clock_icon {
+    filter: invert(100%);
+}
+
+#content.dark-mode .text_field {
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+#content.dark-mode .text_field::placeholder {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .contact_splitter {
+    background-color: #f1f1f1;
+}
+
+#content.dark-mode .splitter_bottom {
+    background-color: #f1f1f1;
+}
+
+#content.dark-mode .submit_button {
+    background-color: #f1f1f1;
+    color: #020202;
+}
+
+#content.dark-mode .caption_contact {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .privacy_link {
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+#content.dark-mode .home_page {
+    filter: invert(0%);
+}
+
+#content.light-mode .home_page {
+    filter: invert(100%);
+}
+
+#content.light-mode .appointments_description.full_black {
+    color: #020202;
+}
+
+#content.dark-mode .appointments_description.full_black {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .hamburger_menu {
+    filter: invert(0%);
+}
+
+#content.light-mode .hamburger_menu {
+    filter: invert(100%);
+}
+
+#content.dark-mode .appointment_cta:hover {
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    color: #020202;
+    transition: all ease-in-out 0.4s;
+}
+
+#content.light-mode .appointment_cta:hover {
+    background-color: #020202;
+    border-color: #020202;
+    color: #f1f1f1;
+    transition: all ease-in-out 0.4s;
+}
+
+#content.dark-mode .submit_button:hover {
+    background-color: #020202;
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+    transition: all ease-in-out 0.4s;
+}
+
+#content.light-mode .submit_button:hover {
+    background-color: #f1f1f1;
+    border-color: #020202;
+    color: #020202;
+    transition: all ease-in-out 0.4s;
+}
+
+#content.dark-mode .grid_menu {
+    filter: invert(0%);
+}
+
+#content.light-mode .grid_menu {
+    filter: invert(0%);
+}
+
+#content.light-mode .link_join {
+    border-color: #020202;
+}
+
+#content.dark-mode .link_join {
+    border-color: #f1f1f1;
+}
+
+#content.dark-mode .clock_icon {
+    filter: invert(100%);
+}
+
+#content.light-mode .link-2 {
+    color: #020202;
+}
+
+#content.dark-mode .link-2 {
+    color: #f1f1f1;
+}
+
+#content.light-mode .clock_icon {
+    filter: invert(0%);
+}
+
+#content.light-mode .appointments_link {
+    border-color: #020202;
+}
+
+#content.light-mode .header-txt {
+    color: #020202;
+}
+
+#content.light-mode .appointments_link:hover {
+    border-color: #020202;
+    background-color: #020202;
+}
+
+#content.light-mode .header-txt:hover {
+    color: #f1f1f1;
+}
+
+#content.dark-mode .header-txt:hover {
+    color: #020202;
+}
+
+.link {
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    white-space: nowrap;
+    color: var(--color-text);
+}
+
+.link::before,
+.link::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.link::before {
+    content: '';
+    /* show by default */
+}
+
+.link_footer {
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    white-space: nowrap;
+    color: var(--color-text);
+}
+
+.link::before,
+.link_footer::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.link::before {
+    content: '';
+    /* show by default */
+}

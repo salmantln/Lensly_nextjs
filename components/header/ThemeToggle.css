@@ -1,0 +1,54 @@
+/* ThemeToggle.css */
+.toggleTheme {
+    border-radius: 34px;
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 34px;
+    cursor: pointer;
+    border: solid 1px #9E9E9E;
+    border-radius: 100em;
+    background-color: #f1f1f1;
+    transition: .4s;
+}
+
+.toggleTheme {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: solid 1px #9E9E9E;
+    border-radius: 100em;
+    background-color: #f1f1f1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggleTheme:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #020202;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked + .toggleTheme {
+    background-color: #f1f1f1;
+    filter: invert(100%);
+}
+
+input:checked + .toggleTheme:before {
+    transform: translateX(26px);
+}
+
+input:focus + .toggleTheme {
+    box-shadow: 0 0 1px #f1f1f1;
+}
+
+
