@@ -67,13 +67,23 @@ export default function Zigzag() {
                                  role="listitem" class="features_card w-dyn-item"><a href="/features/video-editor"
                                                                                      class="stories_cover-wrap is-stories w-inline-block">
                                 <Image
-                                    alt=""
-                                    loading="lazy"
                                     width={50}
                                     height={50}
+                                    alt="" loading="lazy"
                                     src="/img/photo_edit.webp"
-                                    // src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b358f6038b2a142831_64f19cf0b16600af443832bb_vsco-video-editor.webp"
-                                    class="stories_image"/></a>
+                                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 680px, 40vw"
+                                    srcset="/img/photo_edit.webp 500w, /img/photo_edit.webp 700w"
+                                    class="stories_image"
+
+                                    // alt=""
+                                    // loading="lazy"
+                                    // width={50}
+                                    // height={50}
+                                    // src="/img/photo_edit.webp"
+                                    // // src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b358f6038b2a142831_64f19cf0b16600af443832bb_vsco-video-editor.webp"
+                                    // class="stories_image"
+                                />
+                                 </a>
                                 <div class="features_section-content is-stories-parent">
                                     <Image alt=""
                                            width={50}
