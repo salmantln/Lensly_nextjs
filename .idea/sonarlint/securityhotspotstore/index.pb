@@ -53,3 +53,5 @@ U
 %components/contact/AppointmentForm.js,d\1\d1d725582746745f5cc499f3f2186d6948cab5a1
 Y
 )components/header/FullScreenMobileMenu.js,b\a\ba7908fbbf15a1e73bc10eadff5072dd111a5ed4
+>
+next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf

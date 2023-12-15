@@ -26,12 +26,12 @@ export default function Zigzag() {
                         </div>
                     </div>
                     <div class="w-dyn-list">
-                        <div role="list" class="features_cards w-dyn-items">
+                        <div role="list" className="features_cards w-dyn-items">
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                 role="listitem" class="features_card w-dyn-item">
+                                 role="listitem" className="features_card w-dyn-item">
                                 <a href="/features/photo-filters"
-                                   class="stories_cover-wrap is-stories w-inline-block">
+                                   className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
                                         height={50}
@@ -43,7 +43,7 @@ export default function Zigzag() {
                                         // style="transform: scale(1);"
                                     />
                                 </a>
-                                <div class="features_section-content is-stories-parent"
+                                <div className="features_section-content is-stories-parent"
                                     // style="color: rgb(255, 255, 255);"
                                 >
                                     <Image alt=""
@@ -52,10 +52,11 @@ export default function Zigzag() {
                                            loading="lazy"
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41aa_64f19cf0b16600af44383263_icon-filters.svg"
                                            class="features_icon"/>
-                                    <a href="/features/photo-filters" class="stories_feed-title w-inline-block">
-                                        <h2 class="heading-style-old-h2">Photo Filters</h2>
+                                    <a href="/features/photo-filters" className="stories_feed-title w-inline-block">
+                                        <h2 className="heading-style-old-h2">Photo Filters</h2>
                                     </a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">Lensly presets
+                                    <div className="text-color-old-light-grey"><p className="text-size-old-p2">Lensly
+                                        presets
                                         offer a convenient and efficient way to enhance your photographs. The Lensly app
                                         comes with fifteen of its most popular presets included at no cost, enabling
                                         immediate editing of your images. These presets range from subtle and
@@ -67,9 +68,9 @@ export default function Zigzag() {
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                 role="listitem" class="features_card w-dyn-item">
+                                 role="listitem" className="features_card w-dyn-item">
                                 <a href="/features/video-editor"
-                                   class="stories_cover-wrap is-stories w-inline-block">
+                                   className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
                                         height={50}
@@ -88,7 +89,7 @@ export default function Zigzag() {
                                         // class="stories_image"
                                     />
                                 </a>
-                                <div class="features_section-content is-stories-parent">
+                                <div className="features_section-content is-stories-parent">
                                     <Image alt=""
                                            width={50}
                                            height={50}
@@ -97,11 +98,11 @@ export default function Zigzag() {
                                         // src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a14280b_64f19cf0b16600af44383260_icon-video.svg"
                                            class="features_icon"/>
                                     <a
-                                        href="/features/video-editor" class="stories_feed-title w-inline-block">
-                                        <h2 class="heading-style-old-h2">Video Editor</h2>
+                                        href="/features/video-editor" className="stories_feed-title w-inline-block">
+                                        <h2 className="heading-style-old-h2">Video Editor</h2>
                                     </a>
-                                    <div class="text-color-old-light-grey">
-                                        <p class="text-size-old-p2">
+                                    <div className="text-color-old-light-grey">
+                                        <p className="text-size-old-p2">
                                             Enhance your mobile videos using Lensly&apos;s premium presets, effects, and
                                             advanced editing tools, similar to those in its photo editor. Tweak white
                                             balance and explore color adjustments with HSL. The app allows you to trim,
@@ -114,9 +115,9 @@ export default function Zigzag() {
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                 role="listitem" class="features_card w-dyn-item">
+                                 role="listitem" className="features_card w-dyn-item">
                                 <a href="/features/photo-collage"
-                                   class="stories_cover-wrap is-stories w-inline-block">
+                                   className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
                                         height={50}
@@ -128,7 +129,7 @@ export default function Zigzag() {
                                         class="stories_image"
                                         // style="transform: scale(1);"
                                     /></a>
-                                <div class="features_section-content is-stories-parent"
+                                <div className="features_section-content is-stories-parent"
                                     // style="color: rgb(255, 255, 255);"
                                 >
                                     <Image alt=""
@@ -138,10 +139,11 @@ export default function Zigzag() {
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b2be566b5a01657fcc_64f19cf0b16600af44383262_icon-collages.svg"
                                            class="features_icon"/>
                                     <a
-                                        href="/features/photo-collage" class="stories_feed-title w-inline-block">
-                                        <h2 class="heading-style-old-h2">Collage</h2>
+                                        href="/features/photo-collage" className="stories_feed-title w-inline-block">
+                                        <h2 className="heading-style-old-h2">Collage</h2>
                                     </a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">Effortlessly
+                                    <div className="text-color-old-light-grey"><p
+                                        className="text-size-old-p2">Effortlessly
                                         create a collage in moments using Lensly&apos;s pre-designed templates or begin
                                         from
                                         scratch with a blank canvas to bring your vision to life. Personalize your
@@ -152,9 +154,9 @@ export default function Zigzag() {
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                 role="listitem" class="features_card w-dyn-item">
+                                 role="listitem" className="features_card w-dyn-item">
                                 <a href="/features/camera"
-                                   class="stories_cover-wrap is-stories w-inline-block">
+                                   className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         alt=""
                                         width={50}
@@ -166,7 +168,7 @@ export default function Zigzag() {
                                         class="stories_image"
                                         // style="transform: scale(1);"
                                     /></a>
-                                <div class="features_section-content is-stories-parent"
+                                <div className="features_section-content is-stories-parent"
                                     // style="color: rgb(255, 255, 255);"
                                 >
                                     <Image alt=""
@@ -174,9 +176,9 @@ export default function Zigzag() {
                                            height={50} loading="lazy"
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a1427fd_64f19cf0b16600af44383261_icon-camera.svg"
                                            class="features_icon"/><a
-                                    href="/features/camera" class="stories_feed-title w-inline-block"><h2
-                                    class="heading-style-old-h2">Camera</h2></a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">
+                                    href="/features/camera" className="stories_feed-title w-inline-block"><h2
+                                    className="heading-style-old-h2">Camera</h2></a>
+                                    <div className="text-color-old-light-grey"><p className="text-size-old-p2">
                                         Unlock a new realm of creativity for both your photos and videos with just a
                                         swipe and a tap in Lensly. The app features four innovative camera options:
                                         Burst, Retro, Prism, and DSCO. To experience these, head to your studio in the
@@ -186,10 +188,10 @@ export default function Zigzag() {
                             </div>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                 role="listitem" class="features_card w-dyn-item">
+                                 role="listitem" className="features_card w-dyn-item">
                                 <a href="/features/dodge-burn"
 
-                                   class="stories_cover-wrap is-stories w-inline-block">
+                                   className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
                                         height={50}
@@ -201,17 +203,17 @@ export default function Zigzag() {
                                         class="stories_image"
                                         // style="transform: scale(1);"
                                     /></a>
-                                <div class="features_section-content is-stories-parent"
+                                <div className="features_section-content is-stories-parent"
                                     // style="color: rgb(255, 255, 255);"
                                 ><Image alt=""
                                         width={50}
                                         height={50} loading="lazy"
                                         src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a4071825026114_64f19cf0b16600af44383265_icon-dodge.svg"
                                         class="features_icon"/><a
-                                    href="/features/dodge-burn" class="stories_feed-title w-inline-block"><h2
-                                    class="heading-style-old-h2">Dodge &amp; Burn</h2></a>
-                                    <div class="text-color-old-light-grey">
-                                        <p class="text-size-old-p2">Lensly&apos;s new Dodge and Burn tool empowers
+                                    href="/features/dodge-burn" className="stories_feed-title w-inline-block"><h2
+                                    className="heading-style-old-h2">Dodge &amp; Burn</h2></a>
+                                    <div className="text-color-old-light-grey">
+                                        <p className="text-size-old-p2">Lensly&apos;s new Dodge and Burn tool empowers
                                             creators
                                             to manipulate light in their images. This feature enables users to address
                                             common photographic issues and direct the viewer&apos;s focus within the
@@ -258,50 +260,46 @@ export default function Zigzag() {
                                             within the Lensly community.</p>
                                     </div>
                                 </div>
-                                <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
-                                    // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                     role="listitem" className="features_card w-dyn-item">
-                                    <a href="/features/dodge-burn"
 
-                                       className="stories_cover-wrap is-stories w-inline-block">
-                                        <Image
-                                            width={50}
-                                            height={50}
-                                            alt=""
-                                            loading="lazy"
-                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a407182502610f_64f19cf0b16600af443832bd_vsco-dodge-and-burn.webp"
-                                            sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 680px, 40vw"
-                                            srcset="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a407182502610f_64f19cf0b16600af443832bd_vsco-dodge-and-burn-p-500.webp 500w, https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a407182502610f_64f19cf0b16600af443832bd_vsco-dodge-and-burn.webp 700w"
-                                            class="stories_image"
-                                            // style="transform: scale(1);"
-                                        /></a>
-                                    <div className="features_section-content is-stories-parent">
-                                        <Image alt=""
-                                               width={50}
-                                               height={50}
-                                               loading="lazy"
-                                               src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b239f5ae1e37b84ec0_64f19cf0b16600af4438325f_icon-spaces.svg"
-                                               class="features_icon"/>
-                                        <a
-                                            href="/features/spaces"
-                                            className="stories_feed-title w-inline-block">
-                                            <h2 className="heading-style-old-h2">AI Camera Setting</h2>
-                                        </a>
-                                        <div className="text-color-old-light-grey">
-                                            <p className="text-size-old-p2">Discover the ease of photography with
-                                                Lensly&apos;s
-                                                AI Camera Setting Recommendation. Simply tell the app what you&apos;re
-                                                capturing,
-                                                and our AI fine-tunes the settings for the perfect shot. Ideal for any
-                                                scene, from bustling streets to serene sunsets, our AI ensures your
-                                                photos
-                                                are effortlessly stunning. Experience the future of photography with
-                                                Lensly
-                                                – where your vision meets AI precision.</p>
-                                        </div>
+
+                            </div>
+
+                            <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
+                                // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                                 role="listitem" className="features_card w-dyn-item">
+                                <a href="/features/photo-filters"
+                                   className="stories_cover-wrap is-stories w-inline-block">
+                                    <Image
+                                        width={50}
+                                        height={50}
+                                        alt="" loading="lazy"
+                                        src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41a4_64f19cf0b16600af443832b9_vsco-photo-filters.webp"
+                                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 680px, 40vw"
+                                        srcset="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41a4_64f19cf0b16600af443832b9_vsco-photo-filters-p-500.webp 500w, https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41a4_64f19cf0b16600af443832b9_vsco-photo-filters.webp 700w"
+                                        class="stories_image"
+                                        // style="transform: scale(1);"
+                                    />
+                                </a>
+                                <div className="features_section-content is-stories-parent"
+                                    // style="color: rgb(255, 255, 255);"
+                                >
+                                    <Image alt=""
+                                           width={50}
+                                           height={50}
+                                           loading="lazy"
+                                           src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41aa_64f19cf0b16600af44383263_icon-filters.svg"
+                                           class="features_icon"/>
+                                    <a href="/features/photo-filters" className="stories_feed-title w-inline-block">
+                                        <h2 className="heading-style-old-h2">AI Camera Settings</h2>
+                                    </a>
+                                    <div className="text-color-old-light-grey"><p className="text-size-old-p2">Discover
+                                        the ease of photography with Lensly&apos;s AI Camera Setting Recommendation. Simply
+                                        tell the app what you&apos;re capturing, and our AI fine-tunes the settings for the
+                                        perfect shot. Ideal for any scene, from bustling streets to serene sunsets, our
+                                        AI ensures your photos are effortlessly stunning. Experience the future of
+                                        photography with Lensly – where your vision meets AI precision.</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
