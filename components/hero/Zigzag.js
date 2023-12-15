@@ -243,14 +243,16 @@ export default function Zigzag() {
                                     <a
                                         href="/features/spaces"
                                         class="stories_feed-title w-inline-block">
-                                        <h2 class="heading-style-old-h2">VSCO Spaces</h2>
+                                        <h2 class="heading-style-old-h2">Lensly Collective Hubs</h2>
                                     </a>
                                     <div class="text-color-old-light-grey">
-                                        <p class="text-size-old-p2">Spaces offers a collaborative environment designed
-                                            for creators to come together. It's a secure platform where they can
-                                            exchange ideas, find inspiration, and connect with one another through
-                                            shared galleries. This space is intended to foster a community-driven
-                                            atmosphere where creativity and collaboration flourish.</p>
+                                        <p class="text-size-old-p2">Lensly Collective Hubs (LCH) offers a vibrant
+                                            community platform for
+                                            creative collaboration. It&apos;s a dynamic space where users share,
+                                            critique,
+                                            and enhance their work with input from fellow creators. LCH is ideal for
+                                            connecting with peers, gaining fresh insights, and fostering artistic growth
+                                            within the Lensly community.</p>
                                     </div>
                                 </div>
                             </div>
