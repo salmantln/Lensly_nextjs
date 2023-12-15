@@ -67,24 +67,33 @@ export default function Zigzag() {
                                  role="listitem" class="features_card w-dyn-item"><a href="/features/video-editor"
                                                                                      class="stories_cover-wrap is-stories w-inline-block">
                                 <Image
-                                    alt="" loading="lazy"
+                                    alt=""
+                                    loading="lazy"
                                     width={50}
                                     height={50}
-                                    src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b358f6038b2a142831_64f19cf0b16600af443832bb_vsco-video-editor.webp"
+                                    src="/img/photo_edit.webp"
+                                    // src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b358f6038b2a142831_64f19cf0b16600af443832bb_vsco-video-editor.webp"
                                     class="stories_image"/></a>
-                                <div class="features_section-content is-stories-parent"><Image alt=""
-                                                                                               width={50}
-                                                                                               height={50}
-                                                                                               loading="lazy"
-                                                                                               src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a14280b_64f19cf0b16600af44383260_icon-video.svg"
-                                                                                               class="features_icon"/><a
-                                    href="/features/video-editor" class="stories_feed-title w-inline-block"><h2
-                                    class="heading-style-old-h2">Video Editor</h2></a>
-                                    <div class="text-color-old-light-grey"><p class="text-size-old-p2">Transform your
-                                        videos on mobile with the same premium VSCO presets, effects and advanced
-                                        editing tools from our photo editor. Adjust white balance and experiment with
-                                        color control with HSL. Trim, crop and reverse videos with exclusive features
-                                        like Speed for a slo-mo effect.</p>
+                                <div class="features_section-content is-stories-parent">
+                                    <Image alt=""
+                                           width={50}
+                                           height={50}
+                                           loading="lazy"
+                                           src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a14280b_64f19cf0b16600af44383260_icon-video.svg"
+                                           // src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a14280b_64f19cf0b16600af44383260_icon-video.svg"
+                                           class="features_icon"/>
+                                    <a
+                                        href="/features/video-editor" class="stories_feed-title w-inline-block">
+                                        <h2 class="heading-style-old-h2">Video Editor</h2>
+                                    </a>
+                                    <div class="text-color-old-light-grey">
+                                        <p class="text-size-old-p2">Transform your
+                                            videos on mobile with the same premium VSCO presets, effects and advanced
+                                            editing tools from our photo editor. Adjust white balance and experiment
+                                            with
+                                            color control with HSL. Trim, crop and reverse videos with exclusive
+                                            features
+                                            like Speed for a slo-mo effect.</p>
                                     </div>
                                 </div>
                             </div>
