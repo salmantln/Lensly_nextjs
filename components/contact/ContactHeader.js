@@ -67,9 +67,12 @@ const ContactHeader = ({isDarkTheme, toggleTheme, toggleMenu}) => {
                                 <a href="#" target="_blank" className="link_block_2 w-inline-block">
                                     <div className="labs_link">Labs</div>
                                     <div className="arrow_labs">
-                                        <img
+                                        <Image
                                             src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/6398af468c5737168014f6e0_Arrow%201.svg"
-                                            loading="lazy" alt=""/>
+                                            loading="lazy"
+                                            width={50}
+                                            height={50}
+                                            alt=""/>
                                     </div>
                                 </a>
                             </div>

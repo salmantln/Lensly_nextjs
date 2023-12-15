@@ -1,5 +1,6 @@
 import React from 'react';
-import './FullScreenMobileMenu.css'; // Assuming you have a CSS file for styles
+import './FullScreenMobileMenu.css';
+import Image from "next/image"; // Assuming you have a CSS file for styles
 
 const FullScreenMobileMenu = ({isVisible, onClose}) => {
     if (!isVisible) return null;
@@ -30,7 +31,9 @@ const FullScreenMobileMenu = ({isVisible, onClose}) => {
                         <div className="text-block-26">c23 Lensly</div>
                         {/*<a href="" className="link-block-7 w-inline-block">*/}
                             <div className="div-block-41" onClick={onClose}>
-                                <img
+                                <Image
+                                    width={50}
+                                    height={50}
                                     src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/639b5a53adde9a37f8df6904_x.svg"
                                     loading="lazy" alt="" className="image-9"/>
                             </div>
