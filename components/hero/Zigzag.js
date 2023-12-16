@@ -6,7 +6,7 @@ import Image from 'next/image'
 // import FeatImage03 from '@/public/images/features-03-image-03.png';
 // import './App.css'; // Make sure to create this CSS file
 import './Zigzag.css';
-import {Parallax} from "@/components/Parallax"; // Make sure to create this CSS file
+import {Parallax} from "../../components/Parallax"; // Make sure to create this CSS file
 
 export default function Zigzag() {
     return (

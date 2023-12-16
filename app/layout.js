@@ -1,7 +1,7 @@
 'use client'
 import './globals.css'
 import React, {useEffect} from 'react';
-import SmoothScrolling from "@/components/SmoothScrolling";
+import SmoothScrolling from "../components/SmoothScrolling";
 import {Analytics} from "@vercel/analytics/react";
 
 // const inter = Inter({subsets: ['latin']})

@@ -4,7 +4,7 @@ import React, {useEffect, useState} from 'react';
 import ContactHeader from "../../components/contact/ContactHeader";
 // import '../globals.css';
 import AboutFirst from "../../components/contact/AboutFirst";
-import FullScreenMobileMenu from "@/components/header/FullScreenMobileMenu";
+import FullScreenMobileMenu from "../../components/header/FullScreenMobileMenu";
 
 const Page = () => {
 

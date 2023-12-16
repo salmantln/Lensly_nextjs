@@ -1,7 +1,7 @@
 'use client'
-import HomePage from "@/components/home/Home";
+import HomePage from "../components/home/Home";
 import {useState} from "react";
-import FullScreenMobileMenu from "@/components/header/FullScreenMobileMenu";
+import FullScreenMobileMenu from "../components/header/FullScreenMobileMenu";
 
 export default function Home() {
 
