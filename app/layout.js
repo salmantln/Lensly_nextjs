@@ -48,6 +48,48 @@ export default function RootLayout({children}) {
 
         <SmoothScrolling>{children}</SmoothScrolling>
 
+        <div className="mobile_menu"
+        >
+            <div className="wrapper mobile_menu"
+            >
+                <div className="div-block-42">
+                    <div className="div-block-40">
+                        <div className="text-block-26">c23 Studio</div>
+                        <a data-w-id="7b37495e-a503-7fef-2c29-79d67d58d7c2" href="https://www.c23studio.io/#"
+                           className="link-block-7 w-inline-block">
+                            <div className="div-block-41"><img
+                                src="./c23 Studio _ Tattoo Studio_files/639b5a53adde9a37f8df6904_x.svg" loading="lazy"
+                                alt="" className="image-9"/></div>
+                        </a></div>
+                </div>
+                <div className="div-block-12"><a href="https://www.c23studio.io/" aria-current="page"
+                                                 className="mobile_link w-inline-block w--current">
+                    <div className="text-block-15">home</div>
+                    <div className="div-block-13">
+                        <div className="text-block-16">01</div>
+                    </div>
+                </a><a href="https://www.c23studio.io/about" className="mobile_link w-inline-block">
+                    <div className="text-block-15 _02">about</div>
+                    <div className="div-block-13">
+                        <div className="text-block-16">02</div>
+                    </div>
+                </a><a href="https://www.c23studio.io/contact" className="mobile_link w-inline-block">
+                    <div className="text-block-15">contact</div>
+                    <div className="div-block-13">
+                        <div className="text-block-16">03</div>
+                    </div>
+                </a></div>
+                <div className="div-block-14"><a href="mailto:info@c23.io?subject=Contact%20Us"
+                                                 className="link-block-5 w-inline-block">
+                    <div className="text-block-17">info@c23.io</div>
+                </a>
+                    <div className="div-block-15"><a href="https://instagram.com/c23_nyc/" target="_blank"
+                                                     className="link-block-5 w-inline-block">
+                        <div className="text-block-17">instagram</div>
+                    </a></div>
+                </div>
+            </div>
+        </div>
         </body>
         </html>
     )

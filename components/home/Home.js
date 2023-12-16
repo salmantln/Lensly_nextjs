@@ -31,6 +31,7 @@ const HomePage = ({ toggleMenu, menuVisible }) => {
     //     setIsMenuVisible(!isMenuVisible);
     // };
 
+
     return (
         <div id="content" className={isDarkTheme ? 'dark-mode' : 'light-mode'}>
             {/*<input*/}

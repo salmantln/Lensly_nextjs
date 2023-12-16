@@ -3,10 +3,10 @@
 import React, {useEffect, useState} from 'react';
 import ContactHeader from "../../components/contact/ContactHeader";
 // import '../globals.css';
-
 import AboutFirst from "../../components/contact/AboutFirst";
+import FullScreenMobileMenu from "@/components/header/FullScreenMobileMenu";
 
-const Page = ({toggleMenu}) => {
+const Page = () => {
 
     const [isDarkTheme, setIsDarkTheme] = useState(false);
 
@@ -26,16 +26,25 @@ const Page = ({toggleMenu}) => {
         return document.cookie.match(/theme=dark/i) != null;
     }
 
-    return (
-        <div id="content" className={isDarkTheme ? 'dark-mode' : 'light-mode'}>
-            <ContactHeader isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} toggleMenu={toggleMenu} />
-            <AboutFirst/>
+    const [menuVisible, setMenuVisible] = useState(false);
 
-            {/*<HeroContainer isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />*/}
-        </div>
+    const toggleMenu = () => {
+        setMenuVisible(!menuVisible);
+    };
+    return (
+        <>
+
+            <FullScreenMobileMenu isVisible={menuVisible} onClose={toggleMenu}/>
+            <div id="content" className={isDarkTheme ? 'dark-mode' : 'light-mode'}>
+                <ContactHeader isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} toggleMenu={toggleMenu}/>
+                <AboutFirst/>
+
+                {/*<HeroContainer isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />*/}
+            </div>
+        </>
+
     );
 };
-
 
 
 export default Page;
