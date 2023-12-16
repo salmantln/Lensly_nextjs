@@ -5,7 +5,8 @@ import Image from 'next/image'
 // import FeatImage02 from '@/public/images/features-03-image-02.png';
 // import FeatImage03 from '@/public/images/features-03-image-03.png';
 // import './App.css'; // Make sure to create this CSS file
-import './Zigzag.css'; // Make sure to create this CSS file
+import './Zigzag.css';
+import {Parallax} from "@/components/Parallax"; // Make sure to create this CSS file
 
 export default function Zigzag() {
     return (
@@ -27,6 +28,7 @@ export default function Zigzag() {
                     </div>
                     <div class="w-dyn-list">
                         <div role="list" className="features_cards w-dyn-items">
+                            <Parallax speed={1} className="self-start">
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
@@ -66,9 +68,14 @@ export default function Zigzag() {
                                     </div>
                                 </div>
                             </div>
+
+                            </Parallax>
+
+                            <Parallax speed={-2} className="self-start">
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
+
                                 <a href="/features/video-editor"
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
@@ -113,6 +120,7 @@ export default function Zigzag() {
                                     </div>
                                 </div>
                             </div>
+                            </Parallax>
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
@@ -264,6 +272,7 @@ export default function Zigzag() {
 
                             </div>
 
+                            <Parallax speed={-2} className="self-start">
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
@@ -301,6 +310,7 @@ export default function Zigzag() {
                                     </div>
                                 </div>
                             </div>
+                            </Parallax>
                         </div>
                     </div>
                 </div>

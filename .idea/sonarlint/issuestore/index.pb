@@ -55,3 +55,13 @@ Y
 )components/header/FullScreenMobileMenu.js,b\a\ba7908fbbf15a1e73bc10eadff5072dd111a5ed4
 >
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
+S
+#components/contact/contactblock.css,7\9\79e4a44c2a2612ff9c39d95893df58346a6ece39
+X
+(components/hero/BackgroundVideoMobile.js,f\5\f5b54f6328c3ca844929ea6c6bf161f1213d27fc
+Q
+!components/SmoothScrolling.tsx.js,1\0\109cce2b6d2a426db54054a41a1dfd299fc0b605
+N
+components/SmoothScrolling.tsx,2\f\2fc0eb68a08afc8ae33c045638d6572c93cba3ef
+G
+components/Parallax.jsx,b\e\be2673a5fc04d82df41bf1ee5c264784f79467f0

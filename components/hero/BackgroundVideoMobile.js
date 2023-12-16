@@ -18,10 +18,12 @@ const BackgroundVideoMobile = () => {
                     data-object-fit="cover"
                     style={{backgroundImage: `url(https://assets-global.website-files.com/6398aa01513091536e5f3c96/639985be71dd209cc715f4e5_Mobile Video-poster-00001.jpg)`}}>
                     <source
-                        src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/639985be71dd209cc715f4e5_Mobile Video-transcode.mp4"
+                        src="/video/background_video.mp4"
+                        // src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/639985be71dd209cc715f4e5_Mobile Video-transcode.mp4"
                         type="video/mp4"/>
                     <source
-                        src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/639985be71dd209cc715f4e5_Mobile Video-transcode.webm"
+                        src="/video/background_video.mp4"
+                        // src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/639985be71dd209cc715f4e5_Mobile Video-transcode.webm"
                         type="video/webm"/>
                 </video>
             </div>

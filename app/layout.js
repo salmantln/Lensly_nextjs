@@ -1,6 +1,7 @@
 'use client'
 import './globals.css'
 import React, {useEffect} from 'react';
+import SmoothScrolling from "@/components/SmoothScrolling";
 
 // const inter = Inter({subsets: ['latin']})
 //
@@ -45,7 +46,7 @@ export default function RootLayout({children}) {
         <html lang="en">
         <body cz-shortcut-listen="true">
 
-        {children}
+        <SmoothScrolling>{children}</SmoothScrolling>
 
         </body>
         </html>
