@@ -33,12 +33,10 @@ const Page = () => {
     };
     return (
         <>
-
             <FullScreenMobileMenu isVisible={menuVisible} onClose={toggleMenu}/>
             <div id="content" className={isDarkTheme ? 'dark-mode' : 'light-mode'}>
                 <ContactHeader isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} toggleMenu={toggleMenu}/>
                 <AboutFirst/>
-
                 {/*<HeroContainer isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />*/}
             </div>
         </>

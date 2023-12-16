@@ -11,6 +11,19 @@ const ContactBlock = () => {
                 <div class="contact_block-left">
                     {/*<p class="contact_paragraph">Some of SA’s most loved brands have chosen*/}
                     {/*to partner with us. We’d love to chat about how we can help you grow yours.</p>*/}
+
+                    <div className="field">
+                        <label htmlFor="Email" className="field-label">E-mail</label>
+                        <input type="email"
+                               className="text_field w-input"
+                               name="email"
+                               placeholder="Your email"
+                               id="Email"
+                               required
+                               // value={formData.email}
+                            // onChange={handleChange}
+                        />
+                    </div>
                 </div>
                 <div class="contact_block-right">
 

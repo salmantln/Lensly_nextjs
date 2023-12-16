@@ -65,3 +65,7 @@ N
 components/SmoothScrolling.tsx,2\f\2fc0eb68a08afc8ae33c045638d6572c93cba3ef
 G
 components/Parallax.jsx,b\e\be2673a5fc04d82df41bf1ee5c264784f79467f0
+I
+app/api/subscribeUser.tsx,2\f\2f5139e48e9e0d0f64a7551bd68ce53ac7291430
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
