@@ -71,7 +71,7 @@ export default function Zigzag() {
 
                             </Parallax>
 
-                            <Parallax speed={-2} className="self-start">
+                            <Parallax speed={-1} className="self-start">
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">

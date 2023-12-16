@@ -3273,7 +3273,8 @@ a {
     border-radius: 100%;
     justify-content: center;
     align-items: center;
-    display: flex
+    display: flex;
+    position: relative;
 }
 
 .div-block-31 {

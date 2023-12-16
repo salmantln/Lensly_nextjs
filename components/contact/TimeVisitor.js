@@ -37,10 +37,12 @@ const TimeVisitor = () => {
                     <div className="div-block-31">
                         <Image
                             src="/img/clock_timer.png"
-                            // src="https://assets-global.website-files.com/6398aa01513091536e5f3c96/639b0cf216d4d91a3b140bb9_clock.png"
                             loading="lazy"
-                            width={70}
-                            height={70}
+
+                            // width={75}
+                            // height={75}
+                            sizes="(max-width: 75) 5vw, (max-width: 10px) 5vw, 3vw"
+                            fill
                             alt="time icon"
                             className="clock_icon"/>
                     </div>
