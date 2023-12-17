@@ -32,7 +32,7 @@ export default function Zigzag() {
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
-                                <a href="/features/photo-filters"
+                                <a href=""
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
@@ -54,7 +54,7 @@ export default function Zigzag() {
                                            loading="lazy"
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41aa_64f19cf0b16600af44383263_icon-filters.svg"
                                            class="features_icon"/>
-                                    <a href="/features/photo-filters" className="stories_feed-title w-inline-block">
+                                    <a href="" className="stories_feed-title w-inline-block">
                                         <h2 className="heading-style-old-h2">Photo Filters</h2>
                                     </a>
                                     <div className="text-color-old-light-grey"><p className="text-size-old-p2">Lensly
@@ -76,7 +76,7 @@ export default function Zigzag() {
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
 
-                                <a href="/features/video-editor"
+                                <a href=""
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
@@ -105,7 +105,7 @@ export default function Zigzag() {
                                         // src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a14280b_64f19cf0b16600af44383260_icon-video.svg"
                                            class="features_icon"/>
                                     <a
-                                        href="/features/video-editor" className="stories_feed-title w-inline-block">
+                                        href="" className="stories_feed-title w-inline-block">
                                         <h2 className="heading-style-old-h2">Video Editor</h2>
                                     </a>
                                     <div className="text-color-old-light-grey">
@@ -124,7 +124,7 @@ export default function Zigzag() {
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
-                                <a href="/features/photo-collage"
+                                <a href=""
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
@@ -147,7 +147,7 @@ export default function Zigzag() {
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b2be566b5a01657fcc_64f19cf0b16600af44383262_icon-collages.svg"
                                            class="features_icon"/>
                                     <a
-                                        href="/features/photo-collage" className="stories_feed-title w-inline-block">
+                                        href="" className="stories_feed-title w-inline-block">
                                         <h2 className="heading-style-old-h2">Collage</h2>
                                     </a>
                                     <div className="text-color-old-light-grey"><p
@@ -163,7 +163,7 @@ export default function Zigzag() {
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
-                                <a href="/features/camera"
+                                <a href=""
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         alt=""
@@ -184,7 +184,7 @@ export default function Zigzag() {
                                            height={50} loading="lazy"
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b258f6038b2a1427fd_64f19cf0b16600af44383261_icon-camera.svg"
                                            class="features_icon"/><a
-                                    href="/features/camera" className="stories_feed-title w-inline-block"><h2
+                                    href="" className="stories_feed-title w-inline-block"><h2
                                     className="heading-style-old-h2">Camera</h2></a>
                                     <div className="text-color-old-light-grey"><p className="text-size-old-p2">
                                         Unlock a new realm of creativity for both your photos and videos with just a
@@ -197,7 +197,7 @@ export default function Zigzag() {
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
-                                <a href="/features/dodge-burn"
+                                <a href=""
 
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
@@ -218,7 +218,7 @@ export default function Zigzag() {
                                         height={50} loading="lazy"
                                         src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b275a4071825026114_64f19cf0b16600af44383265_icon-dodge.svg"
                                         class="features_icon"/><a
-                                    href="/features/dodge-burn" className="stories_feed-title w-inline-block"><h2
+                                    href="" className="stories_feed-title w-inline-block"><h2
                                     className="heading-style-old-h2">Dodge &amp; Burn</h2></a>
                                     <div className="text-color-old-light-grey">
                                         <p className="text-size-old-p2">Lensly&apos;s new Dodge and Burn tool empowers
@@ -234,7 +234,7 @@ export default function Zigzag() {
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
-                                <a href="/features/spaces"
+                                <a href=""
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
@@ -254,7 +254,7 @@ export default function Zigzag() {
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b239f5ae1e37b84ec0_64f19cf0b16600af4438325f_icon-spaces.svg"
                                            class="features_icon"/>
                                     <a
-                                        href="/features/spaces"
+                                        href=""
                                         className="stories_feed-title w-inline-block">
                                         <h2 className="heading-style-old-h2">Lensly Collective Hubs</h2>
                                     </a>
@@ -276,7 +276,7 @@ export default function Zigzag() {
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
-                                <a href="/features/photo-filters"
+                                <a href=""
                                    className="stories_cover-wrap is-stories w-inline-block">
                                     <Image
                                         width={50}
@@ -298,7 +298,7 @@ export default function Zigzag() {
                                            loading="lazy"
                                            src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41aa_64f19cf0b16600af44383263_icon-filters.svg"
                                            class="features_icon"/>
-                                    <a href="/features/photo-filters" className="stories_feed-title w-inline-block">
+                                    <a href="" className="stories_feed-title w-inline-block">
                                         <h2 className="heading-style-old-h2">AI Camera Settings</h2>
                                     </a>
                                     <div className="text-color-old-light-grey"><p className="text-size-old-p2">Discover
