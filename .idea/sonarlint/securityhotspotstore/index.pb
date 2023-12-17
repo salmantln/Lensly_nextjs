@@ -33,10 +33,6 @@ J
 components/hero/Zigzag.css,d\4\d4d2d726f01f28319e982da3e10eba637cb93045
 I
 components/hero/Zigzag.js,b\9\b9b9e0bd47b35fbe90b9f536a57a0c38c687e355
->
-app/Contact.js,f\a\faf72bbd73f2f2cd334a29081a048018f993d884
-F
-app/contact/Contact.js,a\1\a1f259cb1ceb75b701dd740ee44d386e964b33ee
 C
 app/contact/page.js,1\e\1ee1b74c41fc107b950831f126e1422c89067971
 P
@@ -59,8 +55,6 @@ S
 #components/contact/contactblock.css,7\9\79e4a44c2a2612ff9c39d95893df58346a6ece39
 X
 (components/hero/BackgroundVideoMobile.js,f\5\f5b54f6328c3ca844929ea6c6bf161f1213d27fc
-Q
-!components/SmoothScrolling.tsx.js,1\0\109cce2b6d2a426db54054a41a1dfd299fc0b605
 N
 components/SmoothScrolling.tsx,2\f\2fc0eb68a08afc8ae33c045638d6572c93cba3ef
 G
@@ -71,7 +65,5 @@ I
 .env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 @
 app/api/route.js,e\b\ebe3ca6585535996b0b8cd11aefb1dcb8e87125f
-A
-app/manifest.json,1\b\1b8f37a45195611d039d08e4c0760b0f096a0f66
 >
 app/robots.txt,2\4\243ce389d226d9a36aaf085cc9ef413a36f21e4b

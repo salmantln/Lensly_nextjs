@@ -57,7 +57,9 @@ export default function RootLayout({children}) {
         </head>
         <body cz-shortcut-listen="true">
 
-        <SmoothScrolling>{children}</SmoothScrolling>
+        {/*<SmoothScrolling>*/}
+            {children}
+        {/*</SmoothScrolling>*/}
         <Analytics />
         <div className="mobile_menu">
             <div className="wrapper mobile_menu"
