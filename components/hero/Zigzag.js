@@ -6,7 +6,6 @@ import Image from 'next/image'
 // import FeatImage03 from '@/public/images/features-03-image-03.png';
 // import './App.css'; // Make sure to create this CSS file
 import './Zigzag.css';
-import {Parallax} from "../../components/Parallax"; // Make sure to create this CSS file
 
 export default function Zigzag() {
     return (
@@ -28,7 +27,7 @@ export default function Zigzag() {
                     </div>
                     <div class="w-dyn-list">
                         <div role="list" className="features_cards w-dyn-items">
-                            <Parallax speed={1} className="self-start">
+                            {/*<Parallax speed={1} className="self-start">*/}
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
@@ -69,9 +68,9 @@ export default function Zigzag() {
                                 </div>
                             </div>
 
-                            </Parallax>
+                            {/*</Parallax>*/}
 
-                            <Parallax speed={-1} className="self-start">
+                            {/*<Parallax speed={-1} className="self-start">*/}
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
@@ -120,7 +119,7 @@ export default function Zigzag() {
                                     </div>
                                 </div>
                             </div>
-                            </Parallax>
+                            {/*</Parallax>*/}
                             <div data-w-id="8c457dba-0f59-71de-284d-5565fc07edd3"
                                 // style="opacity: 1; transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                                  role="listitem" className="features_card w-dyn-item">
@@ -302,8 +301,10 @@ export default function Zigzag() {
                                         <h2 className="heading-style-old-h2">AI Camera Settings</h2>
                                     </a>
                                     <div className="text-color-old-light-grey"><p className="text-size-old-p2">Discover
-                                        the ease of photography with Lensly&apos;s AI Camera Setting Recommendation. Simply
-                                        tell the app what you&apos;re capturing, and our AI fine-tunes the settings for the
+                                        the ease of photography with Lensly&apos;s AI Camera Setting Recommendation.
+                                        Simply
+                                        tell the app what you&apos;re capturing, and our AI fine-tunes the settings for
+                                        the
                                         perfect shot. Ideal for any scene, from bustling streets to serene sunsets, our
                                         AI ensures your photos are effortlessly stunning. Experience the future of
                                         photography with Lensly – where your vision meets AI precision.</p>
