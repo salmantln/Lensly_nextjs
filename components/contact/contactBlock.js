@@ -1,9 +1,45 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import './contactblock.css'; // Make sure to create this CSS file
 import Image from 'next/image'
-import Link from 'next/link'
+import {toast} from "react-toastify";
 
 const ContactBlock = () => {
+    const [email, setEmail] = useState("");
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    // const {ref, inView} = useInView({threshold: 0.5});
+    const inputRef = useRef(null);
+    const subscribeUser = async (e) => {
+        e.preventDefault();
+        try {
+            setIsSubmitting(true);
+            const res = await fetch('/api/', {
+                body: JSON.stringify({
+                    email: email,
+                }),
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                method: 'POST',
+            }).finally(() => {
+                setIsSubmitting(false);
+            });
+
+            if (res.ok) {
+                // Show a success message
+                toast.success('You have successfully subscribed!');
+                setEmail(""); // Reset the email state
+            } else {
+                // Show an error message
+                toast.error('An error occurred while subscribing. Please try again later.');
+            }
+        } catch (error) {
+            // Show an error message
+            toast.error('An error occurred while subscribing. Please try again later.');
+        }
+    };
+
+
+
     return (
 
         <div class="contact_block">
@@ -20,14 +56,16 @@ const ContactBlock = () => {
                                placeholder="Your email"
                                id="Email"
                                required
-                               // value={formData.email}
+                               value={email}
+                               onChange={(e) => setEmail(e.target.value)}
+                            // value={formData.email}
                             // onChange={handleChange}
                         />
                     </div>
                 </div>
                 <div class="contact_block-right">
 
-                    <Link href="/contact" class="contact_text-holder w-inline-block">
+                    <div  class="contact_text-holder w-inline-block">
                         <div class="contact_hover"
                             // style="transform: translate3d(0px, 101%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; display: block;"
                         >
@@ -37,8 +75,9 @@ const ContactBlock = () => {
                                width={200}
                                height={200}
                                src="img/JOIN US.svg"
-                            // src="https://assets-global.website-files.com/6270f9643e4eb6b56433f3fb/6274d7d9528a365f49e83bfa_Contact%20us.svg"
-                               loading="eager" class="contact_text-img"/></Link>
+                               onClick={(e) => subscribeUser(e)}
+                               loading="eager"
+                               class="contact_text-img"/></div>
                     <div class="contact_images-holder">
                         <div class="contact_image-holder is-1"
                             // style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"

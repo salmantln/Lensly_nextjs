@@ -282,9 +282,9 @@ export default function Zigzag() {
                                         width={50}
                                         height={50}
                                         alt="" loading="lazy"
-                                        src="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41a4_64f19cf0b16600af443832b9_vsco-photo-filters.webp"
+                                        src="/img/AI-camera.webp"
                                         sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 680px, 40vw"
-                                        srcset="https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41a4_64f19cf0b16600af443832b9_vsco-photo-filters-p-500.webp 500w, https://assets-global.website-files.com/64e31ee22b476f3aa3cb0a8d/64f517b26ef461a95e3e41a4_64f19cf0b16600af443832b9_vsco-photo-filters.webp 700w"
+                                        srcset="/img/AI-camera.webp 500w, /img/AI-camera.webp 700w"
                                         class="stories_image"
                                         // style="transform: scale(1);"
                                     />

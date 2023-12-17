@@ -69,3 +69,9 @@ I
 app/api/subscribeUser.tsx,2\f\2f5139e48e9e0d0f64a7551bd68ce53ac7291430
 4
 .env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+@
+app/api/route.js,e\b\ebe3ca6585535996b0b8cd11aefb1dcb8e87125f
+A
+app/manifest.json,1\b\1b8f37a45195611d039d08e4c0760b0f096a0f66
+>
+app/robots.txt,2\4\243ce389d226d9a36aaf085cc9ef413a36f21e4b
